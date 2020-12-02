@@ -10,24 +10,25 @@
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
-    <b>Your company name here
+    <b>ABC Co. Ltd
         <span style="float:right;font-size:30px;">
             QUOTATION
         </span>
     </b>
-
+    
     <p>
-        Your company address line1 here
-        <br>Your company address line2 here
+        27 Shub Farm Road
+        <br>Flower Avenue
         <span style="float:right;">
-            <img src="./img/quote-pic.jpg" style="width:100px;height:100px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/American_Broadcasting_Company_Logo.svg" style="width:100px;height:100px;">
         </span>
-        <br>Your company address line3 here
+        <br>West Bloomfield, MI
+
 
     </p>
     <br>
@@ -36,7 +37,7 @@
         Phone: 12345678
         <span class="tab">Mobile: 12345678</span>
         <span style="float: right;">
-            2010/7/27
+            <span id="currentdate"></span>
         </span>
     </p>
 
@@ -101,7 +102,7 @@
     </table>
 
     <br>
-<button id="btnAdd">Add Item</button>
+    <button id="btnAdd">Add Item</button>
     <table class="center">
         <thead>
             <tr>
@@ -112,9 +113,38 @@
             </tr>
         </thead>
         <tbody id="dataTable">
-
+            <!-- <tr>
+                <td class="data r">1.5</td>
+                <td class="data">Stock Item Example 0001</td>
+                <td class="data r">1,000.00</td>
+                <td class="data r">1,500.00</td>
+            </tr>
+            <tr>
+                <td class="data r">1</td>
+                <td class="data">Stock Item Example 0002</td>
+                <td class="data r">2,000.00</td>
+                <td class="data r">2,000.00</td>
+            </tr>
+            <tr>
+                <td class="data r">1</td>
+                <td class="data">Service Charge Invoicing Item 001</td>
+                <td class="data r">100.00</td>
+                <td class="data r">200.00</td>
+            </tr>
+            <tr>
+                <td class="data r">1</td>
+                <td class="data">
+                    Service Charge Invoicing Item 002<br>
+                    Additional line 1 for this item<br>
+                    Additional line 2 for this item
+                    
+                </td>
+                <td class="data r">200.00</td>
+                <td class="data r">600.00</td>
+            </tr> -->
         </tbody>
-        <tfooter>
+            
+        <tfooter>  
             <tr>
                 <td class="data"><br></td>
                 <td class="data"></td>
@@ -157,16 +187,16 @@
                 <td class="data"></td>
                 <td class="data"></td>
             </tr>
-
-            <tr id="sub-total">
+            <tr>
                 <td colspan="3" class="data2 r colo"> Subtotal</td>
                 <td colspan="1" class="data2 r" id="bottom-line">
-                    <span id="subTotal">4,300.00</span>
-                </td>
+                <span id="subTotal">4,300.00</span></td>
+
             </tr>
             <tr>
                 <td colspan="3" class="data2 r colo"> Sales Tax</td>
-                <td colspan="1" class="data2 r" id="bottom-line">430.00</td>
+                <td colspan="1" class="data2 r" id="bottom-line">
+                <span id = "salesTax">430.00</span></td>
             </tr>
             <tr>
                 <td colspan="3" class="data2 r colo"> Shipping &amp; Handling</td>
@@ -174,7 +204,8 @@
             </tr>
             <tr>
                 <td colspan="3" class="data2 r colo"> Total Due</td>
-                <td colspan="1" class="data2 r" id="bottom-line">4,730.00</td>
+                <td colspan="1" class="data2 r" id="bottom-line">
+                <span id = "totalDue">4,730.00</span></td>
             </tr>
         </tfooter>
     </table>
@@ -190,8 +221,7 @@
     </p>
 
 
-    <footer>Apitsara Choppradit</footer>
-
+    <footer>Modified from the work of Apitsara Choppradit</footer>
 </body>
 
 </html>
