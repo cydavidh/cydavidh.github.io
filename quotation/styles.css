@@ -4,6 +4,10 @@ table {
     width: 100%;
 }
 
+body { 
+    padding-top: 65px; 
+}
+
 th {
     background-color: rgb(184, 212, 231);
     color: darkblue;
