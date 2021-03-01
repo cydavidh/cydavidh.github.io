@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactForm/my-second-react-app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/ReactForm/my-second-react-app/static/js/main.cf943871.chunk.js",
-    "main.js.map": "/ReactForm/my-second-react-app/static/js/main.cf943871.chunk.js.map",
-    "runtime-main.js": "/ReactForm/my-second-react-app/static/js/runtime-main.6a907541.js",
-    "runtime-main.js.map": "/ReactForm/my-second-react-app/static/js/runtime-main.6a907541.js.map",
-    "static/css/2.150d169a.chunk.css": "/ReactForm/my-second-react-app/static/css/2.150d169a.chunk.css",
-    "static/js/2.bf10f91f.chunk.js": "/ReactForm/my-second-react-app/static/js/2.bf10f91f.chunk.js",
-    "static/js/2.bf10f91f.chunk.js.map": "/ReactForm/my-second-react-app/static/js/2.bf10f91f.chunk.js.map",
-    "static/js/3.67569fb8.chunk.js": "/ReactForm/my-second-react-app/static/js/3.67569fb8.chunk.js",
-    "static/js/3.67569fb8.chunk.js.map": "/ReactForm/my-second-react-app/static/js/3.67569fb8.chunk.js.map",
-    "index.html": "/ReactForm/my-second-react-app/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/ReactForm/my-second-react-app/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/ReactForm/my-second-react-app/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.bf10f91f.chunk.js.LICENSE.txt": "/ReactForm/my-second-react-app/static/js/2.bf10f91f.chunk.js.LICENSE.txt"
+    "main.css": "/ReactForm/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/ReactForm/static/js/main.4bb8ada4.chunk.js",
+    "main.js.map": "/ReactForm/static/js/main.4bb8ada4.chunk.js.map",
+    "runtime-main.js": "/ReactForm/static/js/runtime-main.54eda08c.js",
+    "runtime-main.js.map": "/ReactForm/static/js/runtime-main.54eda08c.js.map",
+    "static/css/2.150d169a.chunk.css": "/ReactForm/static/css/2.150d169a.chunk.css",
+    "static/js/2.dee970d6.chunk.js": "/ReactForm/static/js/2.dee970d6.chunk.js",
+    "static/js/2.dee970d6.chunk.js.map": "/ReactForm/static/js/2.dee970d6.chunk.js.map",
+    "static/js/3.4780447a.chunk.js": "/ReactForm/static/js/3.4780447a.chunk.js",
+    "static/js/3.4780447a.chunk.js.map": "/ReactForm/static/js/3.4780447a.chunk.js.map",
+    "index.html": "/ReactForm/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/ReactForm/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/ReactForm/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.dee970d6.chunk.js.LICENSE.txt": "/ReactForm/static/js/2.dee970d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a907541.js",
+    "static/js/runtime-main.54eda08c.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.bf10f91f.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.cf943871.chunk.js"
+    "static/js/2.dee970d6.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.4bb8ada4.chunk.js"
   ]
 }
