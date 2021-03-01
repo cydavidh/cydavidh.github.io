@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 /* Section/Article */
@@ -18,4 +19,26 @@
 				margin-top: 0;
 			}
 		}
+=======
+
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		p {
+			margin-top: _size(element-margin) * -0.5;
+		}
+
+		@include breakpoint('<=small') {
+			p {
+				margin-top: 0;
+			}
+		}
+>>>>>>> d071ffba3c4bac231b2e7c6c16dd2c459c70f08c
 	}

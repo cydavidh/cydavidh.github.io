@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 /* Row */
@@ -24,4 +25,32 @@
 		@include breakpoint('<=xsmall') {
 			@include html-grid(1em, 'xsmall');
 		}
+=======
+
+
+/* Row */
+
+	.row {
+		@include html-grid(2em);
+
+		@include breakpoint('<=xlarge') {
+			@include html-grid(2em, 'xlarge');
+		}
+
+		@include breakpoint('<=large') {
+			@include html-grid(2em, 'large');
+		}
+
+		@include breakpoint('<=medium') {
+			@include html-grid(1.5em, 'medium');
+		}
+
+		@include breakpoint('<=small') {
+			@include html-grid(1em, 'small');
+		}
+
+		@include breakpoint('<=xsmall') {
+			@include html-grid(1em, 'xsmall');
+		}
+>>>>>>> d071ffba3c4bac231b2e7c6c16dd2c459c70f08c
 	}
