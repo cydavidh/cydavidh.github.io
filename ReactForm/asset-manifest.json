@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-second-react-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/my-second-react-app/static/js/main.8f2a8c0b.chunk.js",
+    "main.js.map": "/my-second-react-app/static/js/main.8f2a8c0b.chunk.js.map",
+    "runtime-main.js": "/my-second-react-app/static/js/runtime-main.444e2e31.js",
+    "runtime-main.js.map": "/my-second-react-app/static/js/runtime-main.444e2e31.js.map",
+    "static/css/2.150d169a.chunk.css": "/my-second-react-app/static/css/2.150d169a.chunk.css",
+    "static/js/2.bf10f91f.chunk.js": "/my-second-react-app/static/js/2.bf10f91f.chunk.js",
+    "static/js/2.bf10f91f.chunk.js.map": "/my-second-react-app/static/js/2.bf10f91f.chunk.js.map",
+    "static/js/3.67569fb8.chunk.js": "/my-second-react-app/static/js/3.67569fb8.chunk.js",
+    "static/js/3.67569fb8.chunk.js.map": "/my-second-react-app/static/js/3.67569fb8.chunk.js.map",
+    "index.html": "/my-second-react-app/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/my-second-react-app/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/my-second-react-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.bf10f91f.chunk.js.LICENSE.txt": "/my-second-react-app/static/js/2.bf10f91f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.444e2e31.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.bf10f91f.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.8f2a8c0b.chunk.js"
+  ]
+}
